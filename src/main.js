@@ -13,10 +13,10 @@ const createWindow = () => {
     mainWindow = new BrowserWindow({
     width: 200,
     height: 200,
-    frame: false,
-    transparent: true,
+    frame: true,
+    transparent: false,
     alwaysOnTop: true,
-    focusable: false,
+    focusable: true,
     closable: true,
     fullscreenable: false,
     maximizable: false,

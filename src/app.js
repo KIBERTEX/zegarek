@@ -1,10 +1,10 @@
 import React from 'react'
+import ClockWrapper from './components/clockWrapper'
 
 const App = () => {
   return (
     <div className='app-container'>
-      <h1>😸 Hello Diana! 😸</h1>
-      <h1>⏰⏰⏰⏰⏰</h1>
+      <ClockWrapper />
     </div>
   )
 }
